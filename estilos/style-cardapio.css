@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+:root{
+
+    --cor0: #582C4D;
+    --cor1: #F7B731;  
+    --cor2: #4ECDC4;
+    --cor3: #F4F4F4;
+
+    --cor01: #75509d;
+    --cor02: #5e509d;
+}
+
+body{
+
+    background-color: #510e789c;
+}
+
+
+.mini-tela{
+
+    width: 200vw;
+    height: 180px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 200px;
+    
+    
+}
+
+.mini-tela p {
+
+ padding-top: 0px;
+ font-size: 0.9em;
+ text-align: center;
+ margin-top: 2px;
+
+
+
+ 
+}
+img{
+
+    border: 0.5px solid black;
+    width: 198px;
+    height: 150px;
+    
+}
+
+.container-centralizador{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
